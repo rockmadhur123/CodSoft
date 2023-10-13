@@ -1,0 +1,38 @@
+body{
+    background: black;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wrap{
+    width: 300px;
+    margin: 22px;
+    height: auto;
+    background: green;
+    padding: 15px;
+    color: red;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+    margin-top: 22px;
+    border-radius: 7px;
+    color: red;
+}
+input[type=btn]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 5px;
+    color:darkorchid;
+}
+input[type=btn]:hover{background-color:  orangered;}
+
+#del{
+    width: 40%;
+    color: black;
+}
+#del:hover{background-color:crimson;}
