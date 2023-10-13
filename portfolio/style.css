@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 23px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0 0 8px greenyellow;
+
+}
+
+
+
+#Home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 850px;
+    justify-content: left;
+    align-items: left;
+    color: yellow;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('download.jfif') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 25%;
+    right: 60%;
+}
+.heading{
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: left;
+    margin: 35px 0px;
+}
+.bttn{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: .6s ease;
+}
+.bttn:hover{
+    cursor: pointer;
+    background-color: green;
+    color: lightgreen;
+    box-shadow: 0 0 5px green , 0 0 15px green;
+    font-weight: bold;
+}
+
+
+
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#image{
+    display: flex;
+}
+#image img{
+    width: 475px;
+    height: 400px;
+}
+#intrduction{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 12px;
+}
+#intrduction h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#image{
+    display: flex;
+}
+#image img{
+    width: 475px;
+    height: 400px;
+}
+#intrduction{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 12px;
+}
+#intrduction h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+#image{
+    display: flex;
+}
+#image img{
+    width: 500px;
+    height: 450px;
+}
+
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    color: aqua;
+    padding: 18px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 18px ;
+
+}
+.input{
+    padding: 10px;
+    margin: 12px;
+    width: 25%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 18%;
+    padding: 10px;
+    margin: 15px;
+}
+#send{
+    padding: 8px;
+    width: 10%;
+    margin: 35px;
+}
+#send:hover{
+    cursor: pointer;
+    box-sizing: 0 0 10px blue;
+}
+
